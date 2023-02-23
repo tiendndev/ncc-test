@@ -63,7 +63,12 @@
   }
 
   .product-card__header {
-    margin-top: 12px;
+    margin-top: 32px;
+  }
+
+  .product-card__desc,
+  .product-card__footer {
+    padding: 0 23px;
   }
 
   .footer {
