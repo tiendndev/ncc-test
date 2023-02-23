@@ -15,13 +15,14 @@
   .section__product {
     margin: 0;
   }
+
+  .footer {
+    top: 94%;
+  }
 }
 
 /* Tablet + Mobile */
 @media (max-width: 1023px) {
-  .footer {
-    top: 380%;
-  }
 }
 
 /* Mobile */
