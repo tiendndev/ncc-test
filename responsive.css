@@ -32,6 +32,7 @@
 
   .section__banner {
     padding: 0;
+    height: 100%;
   }
 
   .section__product {
