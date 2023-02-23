@@ -35,6 +35,10 @@
     width: 83%;
   }
 
+  .header__logo {
+    margin-top: 30px;
+  }
+
   .section__banner {
     padding: 0;
     height: 100%;

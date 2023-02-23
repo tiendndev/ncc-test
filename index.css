@@ -16,6 +16,7 @@ html {
 }
 
 .menu {
+  z-index: 10;
   position: fixed;
   color: #fff;
   font-size: 2rem;
@@ -26,6 +27,12 @@ html {
   height: 32px;
   padding-left: 10px;
   line-height: 32px;
+}
+
+.displayMenu {
+  z-index: 1;
+  width: 100% !important;
+  display: block !important;
 }
 
 #sidebar {
