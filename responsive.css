@@ -15,6 +15,9 @@
 
 /* Tablet + Mobile */
 @media (max-width: 1023px) {
+  .footer {
+    top: 380%;
+  }
 }
 
 /* Mobile */
@@ -54,5 +57,6 @@
 
   .footer {
     margin-left: -80px;
+    top: 376%;
   }
 }
