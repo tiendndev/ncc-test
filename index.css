@@ -27,6 +27,7 @@ html {
   height: 32px;
   padding-left: 10px;
   line-height: 32px;
+  display: none;
 }
 
 .displayMenu {
