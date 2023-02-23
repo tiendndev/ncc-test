@@ -4,6 +4,13 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
+  .section__banner {
+    padding: 0;
+  }
+
+  .product-card__body {
+    flex-direction: column;
+  }
 }
 
 /* Tablet + Mobile */
@@ -12,4 +19,40 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+  #sidebar {
+    display: none;
+  }
+
+  .layout {
+    margin-left: -80px;
+  }
+
+  .section__banner {
+    padding: 0;
+  }
+
+  .section__product {
+    flex-direction: column;
+  }
+
+  .product-card {
+    margin: 0;
+  }
+
+  .product-card__header {
+    margin-top: 160px;
+  }
+
+  .product-card__body {
+    flex-direction: column;
+  }
+
+  .product-card__body img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    margin-left: -80px;
+  }
 }
