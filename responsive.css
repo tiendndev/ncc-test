@@ -11,6 +11,10 @@
   .product-card__body {
     flex-direction: column;
   }
+
+  .section__product {
+    margin: 0;
+  }
 }
 
 /* Tablet + Mobile */
